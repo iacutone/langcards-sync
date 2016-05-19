@@ -35,7 +35,6 @@ GEM
     json (1.8.3)
     kgio (2.10.0)
     method_source (0.8.2)
-    mini_magick (4.5.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.12.0)
@@ -105,7 +104,6 @@ DEPENDENCIES
   dotenv
   foreman
   httparty
-  mini_magick
   pg
   pry
   shotgun

@@ -3,7 +3,7 @@ class Translate
   attr_reader :translator
 
   def initialize
-    @translator = Yandex::Translator.new()
+    @translator = Yandex::Translator.new(ENV['YANDEX_KEY'])
   end
   
   def detect_source_language(word)
