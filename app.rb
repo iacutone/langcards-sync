@@ -1,4 +1,5 @@
 require 'sinatra'
+configure { set :server, :puma }
 # require 'pry'
 require "sinatra/json"
 require 'aescrypt'

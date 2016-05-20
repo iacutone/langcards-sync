@@ -8,12 +8,12 @@ gem 'dotenv'
 gem 'foreman'
 gem 'httparty'
 gem 'pg'
+gem 'puma'
 gem 'shotgun'
 gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'sinatra-contrib'
 gem 'tux'
-gem 'unicorn'
 gem 'yandex-translator'
 
 group :development do

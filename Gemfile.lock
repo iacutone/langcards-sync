@@ -33,7 +33,6 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
     json (1.8.3)
-    kgio (2.10.0)
     method_source (0.8.2)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
@@ -46,12 +45,12 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    puma (3.4.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    raindrops (0.16.0)
     ripl (0.7.1)
       bond (~> 0.5.1)
     ripl-multi_line (0.3.1)
@@ -87,9 +86,6 @@ GEM
       sinatra (>= 1.2.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    unicorn (5.1.0)
-      kgio (~> 2.6)
-      raindrops (~> 0.7)
     uuidtools (2.1.5)
     yandex-translator (0.3.2)
       httparty (>= 0.13.4)
@@ -106,12 +102,12 @@ DEPENDENCIES
   httparty
   pg
   pry
+  puma
   shotgun
   sinatra
   sinatra-activerecord
   sinatra-contrib
   tux
-  unicorn
   yandex-translator
 
 BUNDLED WITH
